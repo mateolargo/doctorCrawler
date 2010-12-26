@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#scrapy crawl -L INFO massmedboard.org --set FEED_URI=basic.csv --set FEED_FORMAT=csv
+scrapy crawl -L INFO massmedboard.org --set FEED_URI=extra.csv --set FEED_FORMAT=csv
